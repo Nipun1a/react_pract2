@@ -1,16 +1,20 @@
-import React from 'react'
-
+import React from 'react';
+import Card from './components/Card.jsx';
+import './index.css';
+import Navbar from './components/Navbar.jsx';
 
 const App = () => {
-  // <> </> React Fragment it is used to avoid unnecssary divs in the html struct by wrapping multiple elements
+  // <> </> React Fragment — used to avoid unnecessary div wrappers
   return (
     <>
       <div>
-        <h1>Hello, React!</h1>
-        <h2>Nipun</h2>
+        <Navbar />
+        <h1>Hello, Buddy!</h1>
+        <Card />
+        <Card />
       </div>
-    </> 
-  )
-}
+    </>
+  );
+};
 
-export default App
+export default App;
