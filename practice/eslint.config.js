@@ -3,6 +3,7 @@ import globals from 'globals'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
 import { defineConfig, globalIgnores } from 'eslint/config'
+// eslint configuration for a React project using modern JavaScript features  it is used to enforce coding standards and catch potential issues in the codebase.it also includes specific rules for React hooks and Vite framework.
 
 export default defineConfig([
   globalIgnores(['dist']),
