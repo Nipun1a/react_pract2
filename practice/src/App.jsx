@@ -10,8 +10,9 @@ const App = () => {
       <div>
         <Navbar />
         <h1>Hello, Buddy!</h1>
-        <Card />
-        <Card />
+        <Card user = "yug"/>
+        <Card user = "luffy" />
+        <Card user = "nipun" />
       </div>
     </>
   );
